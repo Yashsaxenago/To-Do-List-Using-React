@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+}
+.app{
+display: grid;
+place-items: center;
+
+}
+.app>h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.todo{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.todo>input{
+  margin-right: 5px;
+
+}
+.header{
+  background-color: rgb(151, 58, 204);
+  color: rgb(23, 22, 22);
+  padding: 20px 80px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
